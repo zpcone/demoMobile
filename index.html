@@ -1,0 +1,58 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>Facebook Login</title>
+    <link rel="stylesheet" href="css/index.css">
+    <script type="text/javascript" src="src/hotcss.js"></script>
+    <script type="text/javascript" src="js/iscroll.js"></script>
+
+</head>
+<body>
+
+<div id="wrapper">
+    <div id="content">
+
+        <div class="circle-outer">
+            <div class="circle-inner"></div>
+        </div>
+
+        <div class="title">
+            Log in with Facebook
+        </div>
+
+        <div class="line">
+            <div class="line-txt">or</div>
+        </div>
+
+        <form action="#">
+            <div class="form-group">
+                <div class="input-icon"></div>
+                <input type="text" name="userNo" placeholder="Username"  autocomplete="new-password">
+            </div>
+            <div class="form-group">
+                <div class="input-icon"></div>
+                <input type="password" name="psw" placeholder="Password"  autocomplete="new-password">
+            </div>
+            <button type="submit" id="loginBtn">
+                LOG IN
+            </button>
+        </form>
+        <div id="forgetPsw">
+            <a href="javascript:;" >Forgot your password?</a>
+        </div>
+    </div>
+</div>
+
+<script type="text/javascript">
+
+
+    var myScroll = new IScroll('#wrapper',{
+        mouseWheel: true,
+        scrollbars: true
+    });
+
+
+</script>
+</body>
+</html>
